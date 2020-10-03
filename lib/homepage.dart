@@ -65,7 +65,9 @@ class _HomePageState extends State<HomePage> {
                     );
                   },
                 )
-              : CircularProgressIndicator()),
+              : CircularProgressIndicator(
+                  backgroundColor: Colors.white,
+                )),
     );
   }
 }
